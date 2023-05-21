@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sonic Crossover Racing</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/a1ad0aaccb.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <div class="images"><a class="logo" href="index.html"><img src="512.png"><img class="crossovertext" src="crossovertransparent.png"></a></div>
+                <div class="navigation-link" id="navigationlinks">
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                    <ul>
+                        <li><i class="fa-solid fa-house"></i><a href="index.html">Home</a></li>
+                        <li><i class="fa-solid fa-question"></i><a href="about.html">About</a></li>
+                        <li><i class="fa-solid fa-gamepad"></i><a href="download.html">Play</a></li>
+                    </ul>
+                </div>
+                <a href="https://discord.gg/gwp8E2eGQH"><i class="fa-brands fa-discord"></i></a>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+<div class="textbox">
+  <h1>Sonic Crossover Racing</h1> 
+</div>
+        </section>
+        </div>
+        <script>
+            var navigationlinks = document.getElementById("navigationlinks");
+            function openmenu(){
+                navigationlinks.style.right = "0";
+            }
+            function closemenu(){
+                navigationlinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>

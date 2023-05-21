@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sonic Crossover Racing | Download</title>
+        <link rel="stylesheet" href="style2.css">
+        <script src="https://kit.fontawesome.com/a1ad0aaccb.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <div class="images"><a class="logo" href="index.html"><img src="512.png"><img class="crossovertext" src="crossovertransparent.png"></a></div>
+                <div class="navigation-link" id="navigationlinks">
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                    <ul>
+                        <li><i class="fa-solid fa-house"></i><a href="index.html">Home</a></li>
+                        <li><i class="fa-solid fa-question"></i><a href="about.html">About</a></li>
+                        <li><i class="fa-solid fa-gamepad"></i><a href="download.html">Play</a></li>
+                    </ul>
+                </div>
+                <a href="https://discord.gg/gwp8E2eGQH"><i class="fa-brands fa-discord"></i></a>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+<div class="textbox">
+  <h1>Play/Downloads</h1> 
+</div>
+<button class="card">
+    <i class="fa-brands fa-windows"></i>
+    <h1>Windows</h1>
+    </button>
+<button class="card">
+    <i class="fa-brands fa-apple"></i>
+    <h1>macOS</h1>
+</button>
+<button class="card">
+<i class="fa-brands fa-linux"></i>
+<h1>Linux</h1>
+</button>
+<button class="card">
+    <i class="fa-brands fa-steam"></i>
+    <h1>Steam Deck/SteamOS</h1>
+    </button>
+    <a href="https://web.scor.eu.org"><button class="card">
+        <i class="fa-solid fa-globe"></i>
+        <h1>Web Browser/Chromebook</h1>
+    </button></a>
+        </section>
+        </div>
+        <script>
+            var navigationlinks = document.getElementById("navigationlinks");
+            function openmenu(){
+                navigationlinks.style.right = "0";
+            }
+            function closemenu(){
+                navigationlinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
